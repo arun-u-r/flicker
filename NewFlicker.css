@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.container{
+    background-image: url(1.jpg);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: animate 40s infinite;
+}
+/* -------------------------------nav bar------------------------ */
+.navbar{
+    background-color: rgba(31, 29, 29, 0.421);
+    display: flex;
+    width: 100%;
+    height: 80px;
+    justify-content: space-between;
+}
+.logo img{
+    width: 160px;
+    height: 90px;
+    padding: 18px;
+    border-color: solid black ;
+}
+.search{
+    width: 1200px;
+    height: 45px;
+    padding: 18px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+    margin-top: 20px;
+    background-color:rgba(243, 239, 239,0.780) ;
+}
+.search i{
+    color: rgb(59, 59, 59);
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+input{
+    padding-top: 0px;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    width: 300px;
+    margin-left: 20px;
+    color: rgb(129, 118, 118);
+    font-size: 18px;
+}
+.button{
+    margin-top: 18px;
+    padding-left: 100px;
+    display: flex;
+    
+}
+.sign-up{
+   
+    border-radius: 5px;
+    margin-right: 56px;
+    cursor: pointer;
+    text-align: center;
+    height: 40px;
+    width: 120px;
+}
+.sign-up :hover{
+    color: darkgray;
+
+}
+.sign-up a{
+    font-size: 16px;
+    font-weight: 600;
+    font-family: Proxima Nova,helvetica neue,helvetica,arial,sans-serif;
+    color: black;
+    text-decoration: none;
+    padding: 0 20px;    
+    
+}
+.log-in{
+    background-color: transparent;
+    border: 0px;
+    width: 130px;
+    height: 40px;   
+}
+.log-in a{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: Proxima Nova,helvetica neue,helvetica,arial,sans-serif;
+    color: white;
+    text-decoration: none;
+    
+}
+/* -----------------------------navbar end------------------------------ */
+
+/* ------------------------content-------------------------------------- */
+.content{
+    /* justify-items: center;
+    align-items: center; */
+    text-align: center;
+    margin-top: 13vh;  
+    
+    height: 50vh; 
+}
+.main-head{
+    font-size: 60px ;
+    line-height: 56px;
+    text-align: center;
+    color: white;
+    font-family: Proxima nova,helvetica neue,helvetica,arial,sans-serif;
+    padding: 48px;
+}
+.sub-head{
+    margin-top: 0px;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    color: white;
+    font-family: Proxima Nova,helvetica neue,helvetica,arial,sans-serif;
+}
+.start-btn{
+    
+    font-size: 30px;
+    height: 80px;
+    width: 250px;
+    margin-top: 50px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    color: black;
+}
+.start-btn a{
+    text-decoration: none;
+    color: black;
+    
+}
+.start-btn :hover{
+    color: dimgrey;
+}
+/* ----------------------------content end-------------------------------- */
+
+/* -----------------------------footer------------------------------------ */
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    position: relative;
+    top: 145px;
+}
+.foot{
+    position: relative;
+    top: 25px;
+    left: 10px;
+    margin: 14px;
+    padding: 15px;
+    color: hsla(0,0%,100%,.6);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 200;
+    font-family: Proxima Nova,helvetica neue,helvetica,arial,sans-serif;   
+}
+
+.foot i{
+    font-size: 25px;
+}
+/* --------------------------------footer end----------------------------- */
+
+/* --------------------------------animation-------------------------------- */
+@keyframes animate{
+    0%{
+        
+        background-image: url(1.jpg);
+    }
+     10%{
+        
+        background-image: url(2.jpg);
+        
+    } 20%{
+        
+        background-image: url(3.jpg);
+    } 30%{
+        
+        background-image: url(4.jpg);
+    } 40%{
+        
+        background-image: url(5.jpg);
+    }
+      50%{
+        
+        background-image: url(6.jpg);
+    } 60%{
+        
+        background-image: url(7.jpg);
+    } 70%{
+        
+        background-image: url(8.jpg);
+    } 80%{
+        
+        background-image: url(9.jpg);
+    } 90%{
+        
+        background-image: url(10.jpg);
+    } 100%{
+        
+        background-image: url(11.jpg);
+    }
+}
+footer :hover {
+    color: white;
+
+}
+
+    
+    
